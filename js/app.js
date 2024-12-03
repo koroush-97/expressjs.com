@@ -186,3 +186,8 @@ function readCookie(name) {
 function eraseCookie(name) {
   createCookie(name, "", -1);
 }
+
+// thats a commit for a test
+const myclg = () => {
+  console.log('thats a test log');
+}
